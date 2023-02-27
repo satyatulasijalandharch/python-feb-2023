@@ -29,9 +29,3 @@
 | 19  | 09 Mar 2023 | Project 1                                                 |
 | 20  | 10 Mar 2023 | Project 2                                                 |
 | 21  | 11 Mar 2023 | Project 3                                                 |
-
-<style>
-    tbody tr:nth-child(-n+10) {
-        background-color: #C8E6C9;
-    }
-</style>
