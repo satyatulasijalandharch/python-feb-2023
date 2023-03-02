@@ -22,10 +22,10 @@
 | 12  | 02 Mar 2023 | Modules                                                   |
 | 13  | 03 Mar 2023 | Using 3rd party packages from PyPI & virtual environments |
 | 14  | 07 Mar 2023 | Creating and publish package to PyPI                      |
-| 15  | 07 Mar 2023 | OOPS Concepts                                             |
-| 16  | 08 Mar 2023 | OOPS Concepts                                             |
-| 17  | 09 Mar 2023 | Scripting                                                 |
-| 18  | 10 Mar 2023 | Scripting                                                 |
-| 19  | 11 Mar 2023 | Project 1                                                 |
-| 20  | 12 Mar 2023 | Project 2                                                 |
-| 21  | 13 Mar 2023 | Project 3                                                 |
+| 15  | 08 Mar 2023 | OOPS Concepts                                             |
+| 16  | 09 Mar 2023 | OOPS Concepts                                             |
+| 17  | 10 Mar 2023 | Scripting                                                 |
+| 18  | 13 Mar 2023 | Scripting                                                 |
+| 19  | 14 Mar 2023 | Project 1                                                 |
+| 20  | 15 Mar 2023 | Project 2                                                 |
+| 21  | 16 Mar 2023 | Project 3                                                 |
