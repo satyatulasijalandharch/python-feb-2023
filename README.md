@@ -19,13 +19,14 @@
 | 9   | 24 Feb 2023 | Functions                                                 |
 | 10  | 27 Feb 2023 | Functions                                                 |
 | 11  | 28 Feb 2023 | Exceptions and Exception Handling & File handling         |
-| 12  | 01 Mar 2023 | Modules                                                   |
-| 13  | 02 Mar 2023 | Using 3rd party packages from PyPI & virtual environments |
-| 14  | 03 Mar 2023 | Creating and publish package to PyPI                      |
-| 15  | 06 Mar 2023 | OOPS Concepts                                             |
-| 16  | 07 Mar 2023 | OOPS Concepts                                             |
-| 17  | 07 Mar 2023 | Scripting                                                 |
-| 18  | 08 Mar 2023 | Scripting                                                 |
-| 19  | 09 Mar 2023 | Project 1                                                 |
-| 20  | 10 Mar 2023 | Project 2                                                 |
-| 21  | 11 Mar 2023 | Project 3                                                 |
+| 12  | 02 Mar 2023 | Modules                                                   |
+| 13  | 03 Mar 2023 | Modules                                                   |
+| 14  | 06 Mar 2023 | Using 3rd party packages from PyPI & virtual environments |
+| 15  | 07 Mar 2023 | Creating and publish package to PyPI                      |
+| 16  | 08 Mar 2023 | OOPS Concepts                                             |
+| 16  | 09 Mar 2023 | OOPS Concepts                                             |
+| 18  | 10 Mar 2023 | Scripting                                                 |
+| 19  | 13 Mar 2023 | Scripting                                                 |
+| 20  | 14 Mar 2023 | Project 1                                                 |
+| 21  | 15 Mar 2023 | Project 2                                                 |
+| 22  | 16 Mar 2023 | Project 3                                                 |

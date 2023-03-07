@@ -16,7 +16,6 @@ def get_supported_functions(input_object):
     return functions
 
 
-
 def get_sys_path():
     sys_path = None
 
