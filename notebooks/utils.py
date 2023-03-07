@@ -1,5 +1,7 @@
 import sys 
 
+BATCH_NAME = "Python Class"
+
 
 def get_supported_functions(input_object):
     """
