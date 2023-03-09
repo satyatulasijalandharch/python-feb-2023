@@ -22,12 +22,12 @@
 | 12  | 02 Mar 2023 | Modules - User built                                      |
 | 13  | 03 Mar 2023 | Modules - Python built-ins                                |
 | 14  | 07 Mar 2023 | Using 3rd party packages from PyPI - requests             |
-| 15  | 08 Mar 2023 | Using 3rd party packages from PyPI - boto3 (AWS SDK)      |
-| 16  | 09 Mar 2023 | OOPS Concepts                                             |
-| 17  | 10 Mar 2023 | OOPS Concepts                                             |
-| 18  | 13 Mar 2023 | Creating and publish package to PyPI                      |
+| 15  | 09 Mar 2023 | OOPS Concepts - Classes                                   |
+| 16  | 09 Mar 2023 | OOPS Concepts - Classes & Inheritance                     |
+| 17  | 10 Mar 2023 | OOPS Concepts - Inheritance & Encapsulation               |
+| 18  | 13 Mar 2023 | Scripting                                                 |
 | 19  | 14 Mar 2023 | Scripting                                                 |
-| 20  | 15 Mar 2023 | Scripting                                                 |
+| 20  | 15 Mar 2023 | Creating and publish package to PyPI                      |
 | 21  | 16 Mar 2023 | Project 1                                                 |
 | 22  | 17 Mar 2023 | Project 2                                                 |
 | 23  | 20 Mar 2023 | Project 3                                                 |
