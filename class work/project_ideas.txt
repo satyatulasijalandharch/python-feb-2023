@@ -1,0 +1,5 @@
+- Build CRUD APIs
+    - deploy a DB in AWS/GCP
+    - create API -> lambda -> Python
+
+- Google APIs
