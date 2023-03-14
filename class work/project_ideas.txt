@@ -3,3 +3,9 @@
     - create API -> lambda -> Python
 
 - Google APIs
+
+- spin up an RDS instance using python
+    - monitor the usuage the compute usuage
+        - sending email when crossing a threshold
+
+- whatsapp spammer
