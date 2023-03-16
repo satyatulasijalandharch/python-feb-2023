@@ -29,14 +29,13 @@ parser.add_argument(
 args = parser.parse_args()
 # print(args)
 
-name = args.name 
-role = args.role 
+name = args.name
+role = args.role
 
 if name and role:
     print(f"Hello {name}, welcome to the {role} team!")
 else:
     print("need name and role values")
-
 
 
 # file run
@@ -52,11 +51,3 @@ python greeting.py \
     --name firoz \
     --role dba
 """
-
-
-# class Namespace:
-#     name ='firoz'
-#     role = 'dba'
-
-# namespace = Namespace()
-# namespace.name

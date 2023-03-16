@@ -1,8 +1,16 @@
 #!/usr/bin/env python
-_ = "#!/usr/local/bin/python"
-_ = "#!/Users/lokeshsoni/miniconda3/bin/python"
+
+"""
+specific local python paths
+#!/usr/local/bin/python
+#!/Users/lokeshsoni/miniconda3/bin/python
+
+generic python path
+#!/usr/bin/env python
+"""
 
 from argparse import ArgumentParser
+
 
 # 1 get the parser
 parser = ArgumentParser(
@@ -26,15 +34,13 @@ parser.add_argument(
     # default="bench"
 )
 
-# name = input("Please enter your name : ")
-# role = input("Please enter your role : ")
 
 # 3 parse the arguments
 args = parser.parse_args()
 # print(args)
 
-name = args.name 
-role = args.role 
+name = args.name
+role = args.role
 
 if name and role:
     print(f"Hello {name}, welcome to the {role} team!")
@@ -42,20 +48,7 @@ else:
     print("need name and role values")
 
 
-
-# file run
-# python greeting.py --name firoz --role dba
-
-
 _ = """
-#!/bin/bash -> bash
-
-python greeting.py --name firoz --role dba
-
-python greeting.py \
-    --name firoz \
-    --role dba
-
 r - read
 w - write
 x - execute
@@ -69,6 +62,8 @@ d   rwx  r-x  r-x
 /greet.py --name firoz --role dba
 /greet.py --help
 
+mv greet.py greet
+
 greet --name firoz --role dba
 
 copy script
@@ -79,17 +74,4 @@ create a link/shortcut
 ln -s src dest/name
 
 greet --name firoz --role dba
-
-AWS Sagamaker -> DS/ML/AI
-Training Instances -> python code and pass these arguemnts during run time
-
-cron jobs
 """
-
-
-# class Namespace:
-#     name ='firoz'
-#     role = 'dba'
-
-# namespace = Namespace()
-# namespace.name
