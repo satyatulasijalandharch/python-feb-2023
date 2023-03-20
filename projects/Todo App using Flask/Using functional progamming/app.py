@@ -1,27 +1,9 @@
 from uuid import uuid4
+from tasks import TASKS
 from datetime import datetime
 
 from flask import Flask, request, jsonify
 app = Flask(__name__)
-
-
-TASKS = {
-    'a5437154-7593-4f87-81b7-8a867e00fac1': {
-        'task_id': 'a5437154-7593-4f87-81b7-8a867e00fac1',
-        'task': 'first task',
-        'created_at': '2023-03-16T08:50:22.371911',
-        'last_updated_at': '2023-03-16T08:50:22.371911',
-        'status': 'In Progress'
-    },
-
-    'a432b999-5f5d-4662-bacd-dee8edbda7d7': {
-        'task_id': 'a432b999-5f5d-4662-bacd-dee8edbda7d7',
-        'task': 'second task',
-        'created_at': '2023-03-16T08:51:38.673934',
-        'last_updated_at': '2023-03-16T08:51:38.673934',
-        'status': 'In Progress'
-    }
-}
 
 
 @app.route("/tasks", methods=["GET"])
@@ -96,7 +78,7 @@ def update_a_task(taskId):
         status = task["status"]
 
         if status == "Completed":
-            return "Completed task cannot be updated", 400
+            return jsonify({"error": "Completed task cannot be updated"}), 400
 
         task["task"] = task_statement
         task["last_updated_at"] = datetime.now().isoformat()
