@@ -1,0 +1,12 @@
+- install ngrok
+    - configure ngrok (authenticate)
+    - port forward
+        - ngrok http <port number>
+
+- default port - 5000
+
+- postman
+
+
+/tasks
+/task/taskId

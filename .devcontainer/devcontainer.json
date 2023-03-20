@@ -9,9 +9,7 @@
 		"--env-file",
 		".devcontainer/devcontainer.env"
 	],
-
 	"postCreateCommand": "pip3 install --disable-pip-version-check --no-cache-dir --user -r requirements.txt",
-
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -47,7 +45,8 @@
 				"amazonwebservices.aws-toolkit-vscode",
 				"Compulim.vscode-clock",
 				"ksoichiro.vscode-status-bar-title",
-				"zanza00.random-theme-switcher"
+				"zanza00.random-theme-switcher",
+				"rangav.vscode-thunder-client"
 			]
 		}
 	},
