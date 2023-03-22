@@ -12,7 +12,7 @@ class TaskManager:
 
         all_tasks = []
 
-        for task_details in TASKS.values():
+        for task_details in self.tasks.values():
             task_details_to_return = {}
             for key, value in task_details.items():
                 if key in keys:

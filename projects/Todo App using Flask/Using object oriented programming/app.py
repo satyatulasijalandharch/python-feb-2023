@@ -66,8 +66,9 @@ def complete_a_task(taskId):
 
 @app.route("/tasks/<taskId>", methods=["DELETE"])
 def delete_a_task(taskId):
-    task = tm.delete_task(taskId)
-    if task:
+    task_id = tm.delete_task(taskId)
+
+    if task_id:
         return jsonify({"message": "Task deleted"}), 200
     else:
         return jsonify({"error": "Task id is invalid"}), 400
