@@ -1,0 +1,40 @@
+{
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/tasks",
+    "rawQueryString": "",
+    "headers": {
+        "content-length": "28",
+        "x-amzn-tls-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "x-amzn-tls-version": "TLSv1.2",
+        "x-amzn-trace-id": "Root=1-642258a9-3a2f1cd6516014bb47500273",
+        "x-forwarded-proto": "https",
+        "host": "eca2q7ubg7xemxv537cwofud2q0knmcw.lambda-url.us-east-1.on.aws",
+        "x-forwarded-port": "443",
+        "content-type": "application/json",
+        "x-forwarded-for": "117.205.84.14",
+        "accept-encoding": "gzip, deflate",
+        "accept": "*/*",
+        "user-agent": "python-requests/2.28.2"
+    },
+    "requestContext": {
+        "accountId": "anonymous",
+        "apiId": "eca2q7ubg7xemxv537cwofud2q0knmcw",
+        "domainName": "eca2q7ubg7xemxv537cwofud2q0knmcw.lambda-url.us-east-1.on.aws",
+        "domainPrefix": "eca2q7ubg7xemxv537cwofud2q0knmcw",
+        "http": {
+            "method": "POST",
+            "path": "/tasks",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "117.205.84.14",
+            "userAgent": "python-requests/2.28.2"
+        },
+        "requestId": "140b0e57-e36e-41de-9668-1b7195ea22b6",
+        "routeKey": "$default",
+        "stage": "$default",
+        "time": "28/Mar/2023:03:02:01 +0000",
+        "timeEpoch": 1679972521823
+    },
+    "body": "{"task": "New task created"}",
+    "isBase64Encoded": False
+}
