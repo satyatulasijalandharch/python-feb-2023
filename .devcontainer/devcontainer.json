@@ -1,6 +1,6 @@
 {
 	"name": "Python Development",
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.12.6",
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.9",
 	"features": {
 		"ghcr.io/devcontainers/features/aws-cli:1": {},
 		"ghcr.io/devcontainers/features/git:1": {}
